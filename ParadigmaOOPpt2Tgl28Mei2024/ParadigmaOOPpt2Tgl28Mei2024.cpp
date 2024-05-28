@@ -31,6 +31,18 @@ public:
 
 int main()
 {
-   
+	Seseorang* obyek;
+	Joko a;
+	Lia b;
+
+	obyek = &a;
+	obyek->pesan();
+	obyek = &b;
+	obyek->pesan();
+
+	//akses method pesan() dari class seseorang
+	//a.seseorang::pesan();
+
+	return 0;
 }
 
