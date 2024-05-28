@@ -11,6 +11,16 @@ public:
 	// }								//untuk virtual function yang biasa
 };
 
+class Joko : public Seseorang
+{
+public:
+	//deklarasi
+	void pesan()
+	{
+		cout << "pesan dari joko" << endl;
+	}
+};
+
 int main()
 {
    
