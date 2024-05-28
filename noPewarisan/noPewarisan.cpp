@@ -21,7 +21,10 @@ public:
 
 int main()
 {
-    
+    DerivedClass a;
+    a.Perkenalan();
+
+    return 0;
 }
 
 
